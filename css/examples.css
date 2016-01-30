@@ -1,0 +1,56 @@
+
+/* Example 5 */
+
+#example5 .sp-thumbnail-image-container {
+	width: 100px;
+	height: 80px;
+	overflow: hidden;
+	float: left;
+}
+
+#example5 .sp-thumbnail-image {
+	height: 90%;
+}
+
+#example5 .sp-thumbnail-text {
+	width: 170px;
+    float: right;
+    padding: 8px;
+    background-color: #041721;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#example5 .sp-thumbnail-title {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+#example5 .sp-thumbnail-description {
+	font-size: 14px;
+	color: #FFF;
+}
+
+@media (max-width: 500px) {
+	#example5 .sp-thumbnail {
+		text-align: center;
+	}
+
+	#example5 .sp-thumbnail-image-container {
+		display: none;
+	}
+
+	#example5 .sp-thumbnail-text {
+		width: 120px;
+	}
+
+	#example5 .sp-thumbnail-title {
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+
+	#example5 .sp-thumbnail-description {
+		display: none;
+	}
+}
