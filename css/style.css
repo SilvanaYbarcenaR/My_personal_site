@@ -44,6 +44,8 @@ input{
 }
 /*cloud*/
 .clouds_two {
+    pointer-events: none;
+    cursor: default;
     opacity: 0.2;
     background:url("http://montanaflynn.me/lab/css-clouds/images/cloud_two.png");
     position:absolute;
