@@ -312,7 +312,6 @@ input{
 }
 .modal{
   width:50%;
-  height:400px;
   display:block;
   margin:50% 0;
   position:relative;
@@ -467,6 +466,9 @@ blockquote cite:before {
     height:300px; 
     background-size:100% 50%
 }
+.follow{
+  color:#FFF; font-size:1.3em;
+}
 /*social*/
 .social {
   display: inline-block;
@@ -574,23 +576,26 @@ content:'\f113';
     .intro p{
         width:80%;
     }
+    .sp-image{
+      height: 500px;
+    }
 }
-@media screen and (max-width: 318px) {
+@media screen and (max-width: 325px) {
     body {
         font-size:10px!important;
     }
     .tools{
         height: 50px!important;
     }
-    blockquote{
-        margin:1%!important;
+    .favorite_img{
+        width:50px!important;
+    }
+    .follow{
+        margin:0;
     }
 }
 
-
-
-
-
+/*SLIDER*/
 
 html.fp-enabled,
 .fp-enabled body {
