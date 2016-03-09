@@ -88,15 +88,15 @@ input{
 }
 .form{
     font-family: 'Josefin Sans', sans-serif!important;
-    margin:10px 0;
+    margin: 7px 0;
     font-size: 16px;
-    width:80%;
+    width: 75%;
     text-align: left;
-    padding: 10px;
+    padding: 7px 10px;
     background: rgba(255,255,255,0.5);
-    border:0;
-    color:black!important;
-    }
+    border: 0;
+    color: black!important;
+}
 *::-webkit-input-placeholder {
     /* Google Chrome y Safari */
     color: #3E3C3B;
@@ -328,7 +328,6 @@ input{
   opacity:1;
 }
 .head{
-  width:90%;
   height:32px;
   padding:1.5em 5%;
   overflow:hidden;
@@ -466,6 +465,9 @@ blockquote cite:before {
     height:300px; 
     background-size:100% 50%
 }
+.footer p{
+  margin:0;
+}
 .follow{
   color:#FFF; font-size:1.3em;
 }
@@ -473,7 +475,7 @@ blockquote cite:before {
 .social {
   display: inline-block;
   position:absolute;
-  margin-top:45px;
+  margin-top:70px;
   width:100%;
   -ms-transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
@@ -592,6 +594,10 @@ content:'\f113';
     }
     .follow{
         margin:0;
+    }
+    .social a{
+      width: 32px;
+      height: 20px;
     }
 }
 
